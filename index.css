@@ -47,21 +47,13 @@ body {
 .fiorel {
     display: flex;
     justify-content: left;
-    width: 585px;
-    gap: 48px;
+    width: 580px;
+    gap: 50px;
     height: 25px;
 }
 
 .home {
     border-bottom: 1px solid #474747;
-}
-
-#search {
-    font-size: 20px;
-}
-
-#bag {
-    font-size: 20px;
 }
 
 .homelist {
@@ -72,8 +64,8 @@ body {
     display: block;
     position: absolute;
     width: 165px;
-    height: 340px;
-    top: 100px;
+    height: 320px;
+    top: 90px;
 }
 
 .homelist ul {
@@ -113,10 +105,10 @@ body {
     display: block;
     display: flex;
     position: absolute;
-    width: 1105px;
-    height: 538px;
-    left: 60px;
-    top: 38px;
+    width: 1000px;
+    height: 550px;
+    left: 70px;
+    top: 60px;
     
 }
 
@@ -134,8 +126,9 @@ body {
 
 .shop:hover .shops .shoplist li strong {
     color: #474747;
-    font-size: 22px;
-    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
     
 }
 
@@ -143,6 +136,7 @@ body {
     color: #474747;
     font-family: Montserrat, sans-serif;
     font-size: 14px ;
+    
 }
 .portlist{
     display: none;
@@ -155,8 +149,7 @@ body {
       justify-content: start;
       height: 220px;
       width: 200px;
-      top: 68px;
-      background-color:white;
+      top: 65px;
   }
 
   .portlist ul{
@@ -188,11 +181,10 @@ display: none;
   position: absolute;
   display: flex;
   justify-content: start;
-  height: 230px;
+  height: 210px;
   width: 200px;
   top: 120px;
   left: 200px;
-  background-color: white;
 }
 
 .singleport{
@@ -208,7 +200,7 @@ display: none;
   width: 200px;
   top: 150px;
   left: 200px;
-  background-color: white;
+  
 }
 
 .singleport ul li{
@@ -216,7 +208,7 @@ display: none;
   color: black;
   display: flex;
   justify-content: left;
-  width: 155px;
+  width: 160px;
   line-height: 30px;
   font-size: 14px;
   font-family: Montserrat, sans-serif;
@@ -234,7 +226,7 @@ display: none;
     height: 200px;
     width: 100px;
     top: 70px;
-    background-color: white;
+    
   }
   .blog ul{
   display: block;
@@ -266,11 +258,11 @@ display: none;
     position: absolute;
     display: flex;
     justify-content: start;
-    height: 210px;
+    height: 200px;
     width: 200px;
     top: 150px;
     left: 200px;
-    background-color: white;
+    
   }
 
   .types ul{
@@ -279,7 +271,7 @@ display: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 210px;
+    width: 10px;
   }
 
   .types ul li{
@@ -304,8 +296,8 @@ display: none;
     justify-content: start;
     height: 220px;
     width: 200px;
-    top: 70px;
-    background-color:white;
+    top: 60px;
+    
     
 }
 
@@ -315,7 +307,7 @@ display: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 160px;
+  width: 180px;
 }
 
 .all ul li{
@@ -342,7 +334,6 @@ display: none;
   width: 200px;
   top: 20px;
   left: 200px;
-  background-color:white;
 }
 
 .classics ul{
@@ -374,11 +365,10 @@ display: none;
   position: absolute;
   display: flex;
   justify-content: start;
-  height: 250px;
-  width: 200px;
+  height: 230px;
+  width: 180px;
   top: 50px;
   left: 200px;
-  background-color:white;
 }
 
 .info ul{
@@ -412,9 +402,9 @@ display: none;
   justify-content: start;
   height: 250px;
   width: 200px;
-  top: 90px;
+  top: 50px;
   left: 200px;
-  background-color:white;
+  
 }
 
 .inter ul{
@@ -446,11 +436,11 @@ display: none;
   position: absolute;
   display: flex;
   justify-content: start;
-  height: 330px;
+  height: 200px;
   width: 200px;
-  top: 120px;
+  top: 100px;
   left: 200px;
-  background-color:white;
+  
 }
 
 .typ ul{
@@ -474,10 +464,15 @@ display: none;
 }
 .icons {
     cursor: pointer;
-    padding-right: 50px;
+    padding-right: 60px;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
- 
+#search {
+    font-size: 20px;
+}
+#bag {
+    font-size: 20px;
+}
 
