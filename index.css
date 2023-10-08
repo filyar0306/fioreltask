@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+
+}
+
+.Fiorella {
+    background: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 1340px;
+    height: 110px;
+}
+
+.logo {
+    width: 420px;
+}
+
+.logo img {
+    width: 220px;
+    height: 28px;
+}
+
+.Fiorella ul {
+    display: flex;
+    color: #4A4A4A;
+    width: 915px;
+}
+
+.Fiorella ul li {
+    justify-content: left;
+    display: flex;
+    color: #474747;
+    font-size: 14px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fiorel {
+    display: flex;
+    justify-content: left;
+    width: 585px;
+    gap: 48px;
+    height: 25px;
+}
+
+.home {
+    border-bottom: 1px solid #474747;
+}
+
+#search {
+    font-size: 20px;
+}
+
+#bag {
+    font-size: 20px;
+}
+
+.homelist {
+    display: none;
+}
+
+.home:hover .homelist {
+    display: block;
+    position: absolute;
+    width: 165px;
+    height: 340px;
+    top: 100px;
+}
+
+.homelist ul {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pagelist {
+    width: 160px;
+    height: 180px;
+    display: none;
+}
+
+.page:hover .pagelist {
+    display: block;
+    position: absolute;
+    top: 100px;
+}
+
+.pagelist ul {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shops {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.shop:hover .shops {
+    display: block;
+    display: flex;
+    position: absolute;
+    width: 1105px;
+    height: 538px;
+    left: 60px;
+    top: 38px;
+    
+}
+
+.shoplist {
+    width: 150px;
+    height: 400px;
+    
+}
+
+.shop:hover .shops .shoplist ul {
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.shop:hover .shops .shoplist li strong {
+    color: #474747;
+    font-size: 22px;
+    font-family: "Playfair Display", serif;
+    
+}
+
+.shop:hover .shops .shoplist ul li {
+    color: #474747;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px ;
+}
+.portlist{
+    display: none;
+  }
+
+  header ul li:hover .portlist{
+      display: block;
+      position: absolute;
+      display: flex;
+      justify-content: start;
+      height: 220px;
+      width: 200px;
+      top: 68px;
+      background-color:white;
+  }
+
+  .portlist ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  }
+
+  .portlist ul li{
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: left;
+    width: 160px;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+  }
+
+.port1{
+display: none;
+}
+
+#port:hover .port1{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 230px;
+  width: 200px;
+  top: 120px;
+  left: 200px;
+  background-color: white;
+}
+
+.singleport{
+  display: none;
+}
+
+#single:hover .singleport{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 220px;
+  width: 200px;
+  top: 150px;
+  left: 200px;
+  background-color: white;
+}
+
+.singleport ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 155px;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
+  .blog{
+    display: none;
+  }
+
+  header ul li:hover .blog{
+    display: block;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    height: 200px;
+    width: 100px;
+    top: 70px;
+    background-color: white;
+  }
+  .blog ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  
+  }
+
+  .blog ul li{
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: left;
+    width: 210px;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .types{
+    display: none;
+  }
+
+  #post:hover .types{
+    display: block;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    height: 210px;
+    width: 200px;
+    top: 150px;
+    left: 200px;
+    background-color: white;
+  }
+
+  .types ul{
+    display: block;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+  }
+
+  .types ul li{
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: left;
+    width: 140px;
+    line-height: 19px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .all{
+    display: none;
+  }
+
+  header ul li:hover .all{
+    display: block;
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    height: 220px;
+    width: 200px;
+    top: 70px;
+    background-color:white;
+    
+}
+
+.all ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+}
+
+.all ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 130px;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
+.classics{
+  display: none;
+}
+
+#classic:hover .classics{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 220px;
+  width: 200px;
+  top: 20px;
+  left: 200px;
+  background-color:white;
+}
+
+.classics ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.classics ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 130px;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
+.info{
+  display: none;
+}
+
+#infographic:hover .info{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 250px;
+  width: 200px;
+  top: 50px;
+  left: 200px;
+  background-color:white;
+}
+
+.info ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.info ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 130px;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
+.inter{
+  display: none;
+}
+
+#interactive:hover .inter{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 250px;
+  width: 200px;
+  top: 90px;
+  left: 200px;
+  background-color:white;
+}
+
+.inter ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.inter ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 130px;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+
+.typ {
+  display: none;
+}
+
+#typography:hover .typ{
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  height: 330px;
+  width: 200px;
+  top: 120px;
+  left: 200px;
+  background-color:white;
+}
+
+.typ ul{
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.typ ul li{
+  cursor: pointer;
+  color: black;
+  display: flex;
+  justify-content: left;
+  width: 130px;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: Montserrat, sans-serif;
+}
+.icons {
+    cursor: pointer;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ 
+
